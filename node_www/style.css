@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: #212121;
+}
+
+btn {
+    display: block;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
+    border-radius: 10em;
+    background-color: royalblue;
+    color: white;
+    font-size: 200%;
+    margin: 0 auto;
+}
+
+btn:nth-child(2) {
+    background-color: hotpink;
+}
