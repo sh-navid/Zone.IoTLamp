@@ -5,7 +5,7 @@
 ESP8266WebServer server(80);
 
 const int led = 13;
-int lamps[2]={0,0};
+int lamps[2] = {0, 0};
 
 void root() {
   String str = "";
@@ -59,7 +59,7 @@ void root() {
 
 void lamp(int idx, int gpio) {
   lamps[idx] += 1;
-  if (lamps[idx >= 2])
+  if (lamps[idx] >= 2)
     lamps[idx] = 0;
   digitalWrite(gpio, lamps[idx]);
   root();
