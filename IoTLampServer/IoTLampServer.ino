@@ -14,12 +14,18 @@ void root() {
   str += "<head>";
   str += "    <meta charset=\"utf-8\" />";
   str += "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable = no\" />";
+  str += "    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />";
+  str += "    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\" />";
+  str += "    <meta name=\"format-detection\" content=\"telephone=no\" />";
+  str += "    <meta name=\"theme-color\" content=\"#212121\">";
+  str += "    <meta name=\"HandheldFriendly\" content=\"true\">";
+  str += "    <meta name=\"msapplication-TileColor\" content=\"#212121\">";
   str += "    <style type=\"text/css\">";
   str += "        body {";
   str += "            margin: 0;";
   str += "            background-color: #212121;";
   str += "        }";
-  str += "        btn {";
+  str += "        #l1,#l2 {";
   str += "            display: block;";
   str += "            user-select: none;";
   str += "            cursor: pointer;";
@@ -32,15 +38,16 @@ void root() {
   str += "            color: white;";
   str += "            font-size: 200%;";
   str += "            margin: 0 auto;";
+  str += "            text-decoration:none";
   str += "        }";
-  str += "        btn:nth-child(2) {";
+  str += "        #l2 {";
   str += "            background-color: hotpink;";
   str += "        }";
   str += "    </style>";
   str += "</head>";
   str += "<body>";
-  str += "  <a href=\"/blue\"><btn>☀</btn><a>";
-  str += "  <a href=\"/pink\"><btn>☀</btn><a>";
+  str += "  <br/><br/><br/><a id=\"l1\" href=\"/blue\">☀<a>";
+  str += "  <br/><a id=\"l2\" href=\"/pink\">☀<a>";
   str += "</body>";
   str += "</html>";
 
@@ -48,9 +55,7 @@ void root() {
 }
 
 void lamp(int i) {
-  int k = digitalRead(i) + 1;
-  if (k > 1)k = 0;
-  digitalWrite(i, k);
+  digitalWrite(i, 1);
   root();
 }
 
@@ -59,23 +64,23 @@ void setup(void) {
   digitalWrite(led, 0);
   Serial.begin(115200);
   WiFi.mode(WIFI_STA);
-  WiFi.begin("Navid'sIoTServer", "!oTpa55");
+  WiFi.begin("NSH-Router", "!oTpa55!");
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
   }
   Serial.println(WiFi.localIP());
-  MDNS.begin("esp8266")
+  MDNS.begin("esp8266");
 
   server.on("/", root);
 
   server.on("/blue", []() {
-    lamp(4);
+    lamp(D4);
   });
 
   server.on("/pink", []() {
-    lamp(6);
+    lamp(D6);
   });
 
   server.begin();
