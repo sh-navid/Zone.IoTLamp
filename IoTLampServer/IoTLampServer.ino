@@ -46,8 +46,10 @@ void root() {
   str += "    </style>";
   str += "</head>";
   str += "<body>";
-  str += "  <br/><br/><br/><a id=\"l1\" href=\"/blue\">☀<a>";
-  str += "  <br/><a id=\"l2\" href=\"/pink\">☀<a>";
+  str += "    <br/><br/><br/><br/><br/><br/>";
+  str += "    <a id=\"l1\" href=\"/blue\">☀<a>";
+  str += "    <br/><br/><br/>";
+  str += "    <a id=\"l2\" href=\"/pink\">☀<a>";
   str += "</body>";
   str += "</html>";
 
@@ -61,6 +63,8 @@ void lamp(int i) {
 
 void setup(void) {
   pinMode(led, OUTPUT);
+  pinMode(D4, OUTPUT);
+  pinMode(D6, OUTPUT);
   digitalWrite(led, 0);
   Serial.begin(115200);
   WiFi.mode(WIFI_STA);
