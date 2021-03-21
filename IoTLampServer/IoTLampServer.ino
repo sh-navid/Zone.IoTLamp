@@ -5,6 +5,7 @@
 ESP8266WebServer server(80);
 
 const int led = 13;
+int lamps[2]={0,0};
 
 void root() {
   String str = "";
@@ -47,17 +48,20 @@ void root() {
   str += "</head>";
   str += "<body>";
   str += "    <br/><br/><br/><br/><br/><br/>";
-  str += "    <a id=\"l1\" href=\"/blue\">☀<a>";
+  str += "    <a id=\"l1\" href=\"/blue\"><a>";
   str += "    <br/><br/><br/>";
-  str += "    <a id=\"l2\" href=\"/pink\">☀<a>";
+  str += "    <a id=\"l2\" href=\"/pink\"><a>";
   str += "</body>";
   str += "</html>";
 
   server.send(200, "text/html", str);
 }
 
-void lamp(int i) {
-  digitalWrite(i, 1);
+void lamp(int idx, int gpio) {
+  lamps[idx] += 1;
+  if (lamps[idx >= 2])
+    lamps[idx] = 0;
+  digitalWrite(gpio, lamps[idx]);
   root();
 }
 
@@ -80,11 +84,11 @@ void setup(void) {
   server.on("/", root);
 
   server.on("/blue", []() {
-    lamp(D4);
+    lamp(0, D4);
   });
 
   server.on("/pink", []() {
-    lamp(D6);
+    lamp(1, D6);
   });
 
   server.begin();
