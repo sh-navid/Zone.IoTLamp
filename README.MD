@@ -5,7 +5,7 @@ IoTLamp
 #Arduino
 #WeMosD1
 
-![Simulation](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/IoTLamp.png?raw=true)
+![IoTLamp](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/IoTLamp.jpg?raw=true)
 
 لینک ویدیو
 
