@@ -99,3 +99,8 @@ NPNی
 بشه انجام داد اما چون رشته تحصیلیم الکترونیک نیست با اطمینان نمیتونم بگم
 
 ![Simulation](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/AnotherExampleOnBreadBoard.jpg?raw=true)
+
+_____
+در نهایت اینم تست آخر که کاملا داره کار میکنه
+
+![Simulation](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/TestNPNTransistorOnBreadBoard.jpg?raw=true)
