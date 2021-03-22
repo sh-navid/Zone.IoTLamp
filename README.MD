@@ -11,7 +11,15 @@ IoTLamp
 
 https://www.linkedin.com/posts/activity-6779465985301745664-uIZu
 
+برای کامپایل و پروگرام کردن میکرو از
+
+https://www.arduino.cc/en/guide/windows
+
+استفاده کردم
+
 ![ArduinoIDE](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/ArduinoIDE.png?raw=true)
+
+کانفیگ دستگاه من به این صورت تنظیم شده
 
 ![AurduinoIDEConfigurations](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/AurduinoIDEConfigurations.png?raw=true)
 _____
@@ -89,3 +97,5 @@ BC548
 NPNی
 
 بشه انجام داد اما چون رشته تحصیلیم الکترونیک نیست با اطمینان نمیتونم بگم
+
+![Simulation](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/Simulation.png?raw=true)
