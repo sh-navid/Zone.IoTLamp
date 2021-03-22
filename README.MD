@@ -19,7 +19,11 @@ https://falstad.com/circuit/
 ![Simulation](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/Simulation.png?raw=true)
 
 _____
-برای شماتیک از نرم افزار فریتزینگ استفاده کردم و همینطور از ترانزیستور
+برای شماتیک از نرم افزار فریتزینگ استفاده کردم
+
+https://fritzing.org/
+
+و همینطور از ترانزیستور
 
 BC547 
 
