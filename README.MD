@@ -98,4 +98,4 @@ NPNی
 
 بشه انجام داد اما چون رشته تحصیلیم الکترونیک نیست با اطمینان نمیتونم بگم
 
-![Simulation](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/Simulation.png?raw=true)
+![Simulation](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/AnotherExampleOnBreadBoard.jpg?raw=true)
