@@ -11,9 +11,9 @@ IoTLamp
 
 https://www.linkedin.com/posts/activity-6779465985301745664-uIZu
 
-![IoTLamp](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/IoTLamp.jpg?raw=true)
+![ArduinoIDE](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/ArduinoIDE.png?raw=true)
 
-![IoTLamp](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/IoTLamp.jpg?raw=true)
+![AurduinoIDEConfigurations](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/AurduinoIDEConfigurations.png?raw=true)
 _____
 از شماتیک و مدارها 100% مطمئن نیستم چون تخصص من نیست. پس مسئولیت استفاده با خودتون
 
