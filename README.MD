@@ -106,4 +106,4 @@ NPNی
 _____
 در نهایت اینم تست آخر که کاملا داره کار میکنه
 
-![Simulation](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/TestNPNTransistorOnBreadBoard.jpg?raw=true)
+![TestOnBreadBoard](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/TestNPNTransistorOnBreadBoard.jpg?raw=true)
