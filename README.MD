@@ -16,6 +16,8 @@ https://falstad.com/circuit/
 
 کد شبیه سازی با فالستاد و همینطور تصویر خروجی رو ضمیمه کردم
 
+![Simulation](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/Simulation.png?raw=true)
+
 _____
 برای شماتیک از نرم افزار فریتزینگ استفاده کردم و همینطور از ترانزیستور
 
