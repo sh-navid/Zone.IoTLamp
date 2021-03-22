@@ -10,6 +10,10 @@ IoTLamp
 لینک ویدیو
 
 https://www.linkedin.com/posts/activity-6779465985301745664-uIZu
+
+![IoTLamp](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/IoTLamp.jpg?raw=true)
+
+![IoTLamp](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/IoTLamp.jpg?raw=true)
 _____
 از شماتیک و مدارها 100% مطمئن نیستم چون تخصص من نیست. پس مسئولیت استفاده با خودتون
 
@@ -23,6 +27,8 @@ https://falstad.com/circuit/
 استفاده کردم. معمولا خوب شبیه سازی میکنه و خیلی به کمکم اومده
 
 کد شبیه سازی با فالستاد و همینطور تصویر خروجی رو ضمیمه کردم
+
+https://github.com/sh-navid/IoTLamp/blob/master/FalstadSimulation.txt
 
 ![Simulation](https://github.com/sh-navid/IoTLamp/blob/master/IoTLampFigures/Simulation.png?raw=true)
 
@@ -62,6 +68,11 @@ ESP8266
 
 و هر نوع پردازنده و میکروی دیگه ای
 
+
+
+استفاده از پوا-آپ و پول-دان تو مدار خیلی رایجه که دلیل استفاده رو مفصل تو لینک زیر و جاهای دیگه میتونید بخونید
+
+https://circuitdigest.com/tutorial/pull-up-and-pull-down-resistor
 _____
 یک مثال هم روی برد-برد زدم که چون ترانزیستور
 
